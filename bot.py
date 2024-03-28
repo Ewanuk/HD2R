@@ -9,7 +9,6 @@ from discord.ext import commands
 load_dotenv()
 
 TOKEN = os.getenv('DISCORD_TOKEN')
-HELLO_WORLD = os.getenv('HELLO_WORLD')
 
 client = commands.Bot(command_prefix='!')
 
